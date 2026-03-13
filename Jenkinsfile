@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/snadaf922/static-website-cicd.git'
-            }
-        }
-
         stage('Start Nginx') {
             steps {
                 sh 'sudo systemctl start nginx'
