@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shakir Nadaf | DevOps Engineer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      animation: fadeIn 1.2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      margin-bottom: 20px;
+      backdrop-filter: blur(10px);
+    }
+    h1, h2 {
+      color: #ffdd57;
+      margin-bottom: 10px;
+    }
+    a {
+      color: #ffdd57;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .open-button {
+      display: block;
+      margin: 30px auto;
+      padding: 12px 24px;
+      background-color: #ffdd57;
+      color: #222;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .open-button:hover {
+      transform: scale(1.1);
+    }
+    .hidden-section {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Shakir Nadaf</h1>
+  <h2>DevOps Engineer</h2>
+  <p>As a passionate DevOps Engineer, I strive to bridge the gap between development and operations by delivering scalable, secure, and automated cloud infrastructure. With hands-on experience in AWS and Linux, I’m eager to drive continuous integration and deployment best practices.</p>
+</header>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:shakirnadaf922@gmail.com">shakirnadaf922@gmail.com</a></p>
+  <p>Phone: 9172189102</p>
+  <p>Location: Pune, India</p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/shakir-nadaf-b65596300/" target="_blank">linkedin.com/in/shakir-nadaf</a></p>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <p><strong>B.Tech</strong> – Dr. Babasaheb Ambedkar Technological University</p>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <p><strong>Intern – Fortune Cloud Technologies Pvt. Ltd., Pune</strong></p>
+  <ul>
+    <li>Gained hands-on experience with DevOps tools and practices</li>
+    <li>Worked on deploying cloud environments using AWS</li>
+    <li>Collaborated in a team to automate routine tasks using shell scripting</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <p><strong>Technical:</strong> AWS, Linux, DevOps Tools (Git, Jenkins, Docker, CI/CD pipelines)</p>
+  <p><strong>Soft Skills:</strong> Team collaboration, Problem-solving, Communication, Adaptability</p>
+</section>
+
+<button class="open-button" onclick="document.getElementById('extra-section').style.display='block'; this.style.display='none';">Open More Info</button>
+
+<section id="extra-section" class="hidden-section">
+  <h2>More About Me</h2>
+  <p>I am continuously learning and keeping up with the latest trends in cloud computing and DevOps practices. I enjoy working in collaborative teams, solving technical challenges, and building robust automated systems that scale.</p>
+</section>
+
+</body>
+</html>
